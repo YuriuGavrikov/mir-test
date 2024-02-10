@@ -42,8 +42,6 @@ const setIsEdit = () => {
 
 	position: relative;
 
-	min-height: 2rem;
-
 	padding: 8px 24px 8px 8px;
 	border: 1px solid #c4cad4;
 	border-radius: 4px;
