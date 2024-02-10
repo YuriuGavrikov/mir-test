@@ -2,7 +2,6 @@
 import { ref, watch, onMounted } from "vue";
 
 import Chapter from "./components/Chapter.vue";
-// import Alert from "./components/Alert.vue";
 
 const tasks = ref([
 	{ id: 0, text: "task1", chapterId: 0 },
@@ -84,7 +83,6 @@ const onDrop = (e, chapterId) => {
 </script>
 
 <template>
-	<!-- <Alert /> -->
 	<div class="container">
 		<Chapter
 			v-for="chapter in chapters"
